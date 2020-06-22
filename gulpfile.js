@@ -21,7 +21,7 @@ const patchs = {
 		dist: "./dist/js/"
 	},
 	img: {
-		src: "./src/image/**/*.{jpg,png,webp,gif,svg}",
+		src: "./src/img/**/*.*",
 		dist: "./dist/img/"
 	}
 };

@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/dist/img/header.png");
+  background-image: url("../../img/header.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -34,6 +34,8 @@
     font-weight: bold;
     width: 290px;
     bottom: 0;
+    -webkit-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
     transform: translate(-50%, 50%);
     @include button;
     &:after{
