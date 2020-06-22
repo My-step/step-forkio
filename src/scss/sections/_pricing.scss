@@ -1,11 +1,11 @@
 .pricing{
 
- background-image: url('../../img/pricing-bg.png');
- background-repeat: no-repeat;
- background-size: cover;
- padding: 50px 0;
+   background-image: url('../img/pricing-bg.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 50px 0;
 
- @media (max-width: $tablet) {
+   @media (max-width: $tablet) {
     padding: 0 40px 40px;
     @media (max-width: $tablet) {
         padding: 0 0 40px;

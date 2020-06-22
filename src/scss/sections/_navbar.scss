@@ -20,9 +20,9 @@
   &__image {
     width: 43px;
     height: 41px;
-    background-image: url("../../img/logo/Logo.png");
+    background-image: url("../img/logo/Logo.png");
     &:hover {
-      background-image: url("../../img/logo/logo-hover.png");
+      background-image: url("../img/logo/logo-hover.png");
     }
   }
   &__slogan {
@@ -168,7 +168,7 @@
       align-items: center;
       text-decoration: none;
       &:hover>.navbar__img{
-        background-image: url('dist/img/logo/logo-hover.png');
+        background-image: url('../img/logo/logo-hover.png');
       }
       &:hover>.navbar__slogan{
         color: #ffffff;
