@@ -53,10 +53,11 @@ ol[class] {
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
-a:hover{
+a{
   text-decoration: none;
 }
-a{
+
+a:hover {
   text-decoration: none;
 }
 
