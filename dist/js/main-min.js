@@ -1,0 +1,1 @@
+function burger(e){let n=$(e),r=n.find(".burger__menu"),u=n.find(".menu");function c(){n.toggleClass("burger_active")}r.on("click",e=>{e.preventDefault(),c()}),u.on("click",()=>c())}burger(".burger");
