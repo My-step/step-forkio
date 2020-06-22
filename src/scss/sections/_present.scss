@@ -1,0 +1,32 @@
+.present{
+	& .present-box{
+
+		@include align-items;
+		flex-direction: column;
+
+		& .present-text{
+			@include flex;
+			color: $primary-color;
+			font-family: $font-primary;
+			font-size: 20px;
+			max-width: 920px;
+			text-align: center;
+			margin: 0 auto 35px;
+
+			@media (max-width: $tablet){
+				font-size: 14px;
+				text-align: center;
+			}
+
+			@media (max-width: $mobile){
+				font-size: 14px;
+			}
+		}
+		
+
+
+
+
+
+	}
+}

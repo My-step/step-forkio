@@ -1,0 +1,99 @@
+.title {
+    @include flex-center;
+    font-family: $font-primary;
+   
+}
+.present-box{
+    & .title{
+        color: $primary-color;
+        font-size: 54px;
+        text-transform: uppercase;
+        margin: 0 0 40px;
+        font-weight: 700;
+        @media (max-width: $tablet) {
+            font-size: 42px;
+            }
+        @media (max-width: 600px) {
+            font-size: 30px;
+            text-align: center;
+            }
+        @media (max-width: $mobile){
+            font-size: 26px;
+            text-align: center;
+            line-height: 42px;
+        }
+       
+    }
+}
+
+.title-bootom {
+        @media (max-width: $tablet) {
+            display: none;
+            }
+    }
+.features-title{
+        color: $primary-color;
+        font-size: 48px;
+        font-weight: 700;
+        &::before{
+
+            content: '<';
+        }
+        &::after{
+            content:'>';
+        }
+        @media (max-width: 1175px) {
+            font-size: 45px;
+            }
+        @media (max-width: 1111px) {
+            font-size: 40px;
+             }
+         
+       
+}
+.pricing-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: $secondary-color;
+    margin: 0 0 130px;
+       
+    @media (max-width: 1070px) {
+        padding-bottom: 55px;
+    }
+
+    @media (max-width: $tablet) {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    @media (max-width: $mobile) {
+        font-size:28px;
+        text-align: center;
+      
+    }
+}
+
+// TITLE FOR PRICING CARD
+
+.card-header-title{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: $font-primary;
+    text-transform: uppercase;
+    color: $secondary-color;
+
+}
+.card-title{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: $font-primary;
+    text-transform: uppercase;
+    color: $secondary-color;
+    margin-bottom: 25px;
+
+    &::before{
+        content: '$';
+        font-weight: 400;
+    }
+
+}

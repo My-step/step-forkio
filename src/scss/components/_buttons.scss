@@ -1,0 +1,78 @@
+
+.count-buttons{
+	@include flex-center;
+	@media (max-width: 420px){
+		@include flex-wrap;
+	}
+
+	& .count-badge:nth-child(3){
+		margin-right: 0px;
+		@media (max-width: 420px){
+			margin-top: 20px;
+		}
+	}
+	& .count-badge{
+		border: 1px solid #dddddd;
+		border-radius: 4px;
+		@include flex-center;
+		align-items: center;
+		margin-right: 10px;
+
+		@media (max-width: 420px){
+			margin-right: 20px;
+		}
+
+		&-buttons{
+			border:none;
+			border-right: 1px solid #dddddd;
+			padding: 10px;
+			cursor: pointer;
+			@media (max-width: $tablet){
+				font-size: 12px;
+				padding: 7px;
+			}
+			
+		}
+		&-title{
+			font-family: $font-primary;
+			font-weight: 700;
+			font-size: 14px;
+		
+			
+
+		}
+		& .count{
+			font-family: $font-primary;
+			font-weight: 700;
+			padding: 10px;
+			color: #000;
+			font-size: 14px;
+			&:hover{
+				text-decoration: none;
+			}
+			@media (max-width: $tablet){
+				font-size: 12px;
+				padding: 7px;
+			}
+			}
+		
+	}
+	     
+}
+
+
+// BTN FOR PRICING
+
+.btn-pricing{
+	font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: $font-primary;
+	color: $secondary-color;
+	padding: 16px 0;
+	background-color:rgba(255,255,255, 0.15);
+    border: none;
+  	width: 160px;
+    border-radius:25px;
+}
+

@@ -1,0 +1,12 @@
+# folder ignore
+.idea/**/*
+psd-photoshop/**/*
+node_modules/**/*
+task/**/*
+# files ignore
+*.iml
+*.xml
+*.psd
+lint.yml
+package-lock.json
+package.json

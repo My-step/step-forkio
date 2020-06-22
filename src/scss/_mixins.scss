@@ -1,0 +1,49 @@
+@mixin linkBtn{ 
+    display: inline-block;
+    text-decoration: none;
+	}
+
+
+@mixin flex {
+    display: flex;
+	}
+@mixin flex-wrap {
+    @include flex;
+    flex-wrap: wrap;;
+    }
+
+@mixin flex-center {
+    @include flex;
+    justify-content: center;
+    }
+    
+@mixin align-items {
+    @include flex;
+   align-items: center;
+    }
+
+@mixin flex-between {
+    @include flex;
+    justify-content: space-between;
+    }
+    
+    
+@mixin flex-evenly {
+    @include flex;
+    justify-content: space-evenly;
+	}
+
+
+@mixin button {
+  border-radius: 40px;
+  border: 1px solid transparent;
+  transition: color 0.3s linear;
+  color: white;
+  background-color: $primary-color;
+  text-decoration: none;
+  &:hover{
+    border-color: $primary-color;
+    background-color: #fff;
+    color: $primary-color;
+  }
+}
