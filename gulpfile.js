@@ -3,7 +3,7 @@ const sass = require('gulp-sass');
 const minify = require('gulp-minify');
 const imagemin = require('gulp-imagemin');
 const autoprefixer = require('gulp-autoprefixer');
-var clean = require('gulp-clean');
+const clean = require('gulp-clean');
 
 
 const patchs = {
@@ -28,7 +28,7 @@ const patchs = {
 
 const moveCLEAN = () => 
 gulp.src(patchs.cleanCSS.src).
-pipe(clean()).
+pipe(clean('dist/')).
 pipe(gulp.dest(patchs.cleanCSS.dist));
 
 const moveSCSS = () => 
